@@ -14,7 +14,7 @@
         }
         a{
             font-family: Arial, Helvetica, sans-serif;
-            background-color: red;
+            background-color: darkred;
             padding:5px 100px 20px 85px;
             text-align: center;
             text-decoration: none;
@@ -26,4 +26,5 @@
         }
         a:hover{
             text-decoration: underline;
+            background-color: red;
         }

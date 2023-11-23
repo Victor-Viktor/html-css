@@ -1,6 +1,8 @@
 @charset "UTF-8";
 body{
     background-image: url(../imagens/fundo-madeira.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 #smartphone{
     position: absolute;
@@ -20,9 +22,14 @@ iframe{
     height: 50px;
     border-radius: 50%;
     position: relative;
-    left: 95%;
+    text-align: right;
+    margin: 5px;
+}
+.redes{
+    text-align: right;
 }
 .redes > a > img:hover{
-    left: 94%;
+    transform: translate(-3px, -3px);
     box-shadow: 5px 5px 15px black;
+    transition: .3s;
 }
