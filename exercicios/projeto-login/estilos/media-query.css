@@ -11,7 +11,7 @@ Grandes Telas: Acima de 1200px
 -------------------------------
 */
 
-@media screen and (min-width:600px) and (max-width:992px){
+@media screen and (min-width:768px) and (max-width:992px){
     body{
         background-image: linear-gradient(to bottom, #5f2c82, #49a09d);
     }
@@ -34,6 +34,11 @@ Grandes Telas: Acima de 1200px
     }
     .botao{
         width: 240px;
+    }
+    .campo{
+        width: 240px;
+        margin: auto;
+        margin-bottom: 8px;
     }
 }
 
@@ -60,5 +65,10 @@ Grandes Telas: Acima de 1200px
         display: block;
         margin: auto;
         margin-bottom: 5px;
+    }
+    .campo{
+        width: 240px;
+        margin: auto;
+        margin-bottom: 8px;
     }
 }
