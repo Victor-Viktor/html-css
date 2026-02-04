@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-indent: 30px;
+    margin: 0px;
+    background-color: #84E1AD;
+}
+header{
+    text-align: center;
+    color: white;
+    padding-top: 1px;
+    background-image: linear-gradient(to top, #164C2F, #3CD883);
+    margin: 0px;
+    min-width: 400;
+}
+nav{
+    padding-bottom: 20px;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 30px;
+}
+nav > a:hover{
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.623), rgba(255, 255, 255, 0.185));
+    padding: 10px;
+    border-radius: 20px;
+}
+header > nav{
+    text-align: left;
+}
+main{
+    text-align: justify;
+    background-color: white;
+    padding: 20px;
+    max-width: 800px;
+    min-width: 280px;
+    margin: auto;
+    box-shadow: 5px 5px 25px black;
+
+}
+article > h2{
+    margin: 0px;
+}
+img.dan{
+    display: block;
+    margin: auto;
+}
+img#irina{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+article > aside{
+    border-radius: 20px;
+    padding: 0px 20px 5px 20px;
+    background-color:#3cd88280;
+    max-width: 760px;
+    box-shadow: 5px 5px 10px black;
+}
+h4{
+    background-color: #2FA866;
+    color: white;
+    padding: 10px;
+    margin-right: -20px;
+    margin-left: -20px;
+    border-radius: 20px 20px 0px 0px;
+}
+span{
+    color: #164C2F;
+    font-weight: bold;
+    
+}
+.linelink{
+    color: #164C2F;
+    text-decoration: none;
+    font-weight: bold;
+}
+.linelink::after{
+    content: '\00A0\1F517';
+}
+footer{
+    background-color: #164C2F;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 1px;
+    min-width: 318px;
+}
+footer > p{
+    margin: 0px;
+}
+.droid{
+    font-family: 'idroid';
+}
+.fade{
+    background-image: linear-gradient(to right, #c4ebd6d2, #c4ebd600);
+}
+.conteudo{
+    font-weight: bold;
+    display: inline-block;
+    width: 370px;
+    margin: auto;
+    padding: 0px;
+    background-color: #3cd88200;
+}
+#bug{
+    display: block;
+    margin: auto;
+}
+div.video{
+    height: 350px;
+    position: relative; 
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    bottom: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+div{
+    background-color: #164C2F;  
+    margin: auto;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 30px 0px;
+}
